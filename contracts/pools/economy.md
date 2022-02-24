@@ -4,7 +4,7 @@ Capital is required for traders to get leverage on the platform. For this, there
 
 The profitability of LPs depends on the pool utilization ratio - the higher utilization, the higher interest rate. Each pool has an underlying asset and risk parameters such as: allowed for trading tokens list, allowed DEXes, stable coin pool, and others.
 
-In the current version, we implement linear extrapolation for interest rate calculation as Aave did, in v2 we are going to use a specially designed curve - see the [paper](https://colab.research.google.com/drive/1UciFX7BQ62mtme0r84FO95FfA8C\_zQKI).
+In the current version, we implement linear extrapolation for interest rate calculation as Aave did, in v2 we are going to use a specially designed curve - see the [paper](https://colab.research.google.com/drive/1bjBWHNGHiSDd27\_WsINQLXa3ImhTrt-W).
 
 ### Diesel tokens
 
