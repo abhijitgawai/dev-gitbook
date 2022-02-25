@@ -108,7 +108,7 @@ EL(t_n) = EL(t_{n-1})+amount_U
 $$
 
 $$
-mint\;diesel\;tokens =amount_{U}*\frac{EL(t_n)}{diesel\;supply(t_n)}
+mint\;diesel\;tokens =amount_{U}*\frac{diesel\;supply(t_n)}{EL(t_n)}
 $$
 
 where amount\_U - is amount of added underlying liquidity.  Then called Pool Update().&#x20;
@@ -122,7 +122,7 @@ EL(t_n) = EL(t_{n-1})+
 $$
 
 $$
-+B(t_{n-1})*r(t_{n-1})*(t_{n}-t_{n-1})-amount_{LP}*\frac{diesel\;supply(t_n)}{EL(t_{n-1})},
++B(t_{n-1})*r(t_{n-1})*(t_{n}-t_{n-1})-amount_{LP}*\frac{EL(t_{n-1})}{diesel\;supply(t_n)},
 $$
 
 $$
