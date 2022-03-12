@@ -4,7 +4,7 @@
 
 1. Attacker opens 2 positions (lets assume that 1ETH = 2500USDC)\
    \
-   **\[Position #1:  Long USDC->ETH]**: 1000 USDX x5 = 5K USDC -> 2 ETH \
+   **\[Position #1:  Long USDC->ETH]**: 1000 USDC x5 = 5K USDC -> 2 ETH \
    **\[Position #2:  Long ETH -> USDC]**: 0.4ETH x5 = 2 ETH -> 5000 USDC\
    \
    Each position has 1.16 heath factor.&#x20;
